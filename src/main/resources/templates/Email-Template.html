@@ -5,9 +5,9 @@
     <title>Title</title>
 </head>
 <body>
-    <h2>Recuperar contrseña</h2>
-    <h3><span>Hola </span><span>User</span></h3>
+    <h2>Recuperar contraseña</h2>
+    <h3><span>Hola </span><span th:text="${userName}"></span></h3>
     <h4>Haz click en el siguiente enlace para acceder a tu cuenta</h4>
-    <a th:href="@{http://start.spring.io/}"><button>Ir a restablecer mi cuenta</button></a>
+    <a th:href="@{${url}}"><button>Ir a restablecer mi cuenta</button></a>
 </body>
 </html>
